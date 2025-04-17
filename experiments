@@ -1,0 +1,9 @@
+set1 = set("abcdefg")
+set2 = set("adegjke")
+set3 = set("aaaaaaaaa")
+#set1.remove("a")
+#set2.add("q")
+#set3.add("a")
+set1.difference(set2)
+
+print(set1, set2, set3)
